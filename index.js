@@ -33,7 +33,7 @@ const getChannelIcon = (video_data) => {
 };
 
 const makeVideoCard = (data) => {
-    videoCardContainer.innerHTML += `<div class="video" onclick="location.href ='https://youtube.com/watch?v=${data.id}'">;
+    videoCardContainer.innerHTML += `<div class="video" onclick="location.href ='https://youtube.com/watch?v=${data.id}'">
     <img src="${data.snippet.thumbnails.high.url}" class="thumbnail" alt="videoprofil">
     <div class="content">
         <img src="${data.channelThumbnail}" alt="channel-icon" class="channel-icon">
